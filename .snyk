@@ -1,0 +1,20 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - addons-linter > cheerio > lodash:
+        patched: '2020-05-01T00:48:38.502Z'
+    - addons-linter > eslint > lodash:
+        patched: '2020-05-01T00:48:38.502Z'
+    - addons-linter > eslint > inquirer > lodash:
+        patched: '2020-05-01T00:48:38.502Z'
+    - addons-linter > eslint > table > lodash:
+        patched: '2020-05-01T00:48:38.502Z'
+    - addons-linter > eslint-plugin-no-unsafe-innerhtml > eslint > lodash:
+        patched: '2020-05-01T00:48:38.502Z'
+    - addons-linter > eslint-plugin-no-unsafe-innerhtml > eslint > inquirer > lodash:
+        patched: '2020-05-01T00:48:38.502Z'
+    - addons-linter > eslint-plugin-no-unsafe-innerhtml > eslint > table > lodash:
+        patched: '2020-05-01T00:48:38.502Z'
